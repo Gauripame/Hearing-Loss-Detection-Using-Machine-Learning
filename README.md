@@ -1,4 +1,3 @@
-(Major Project in master)
 [Python | Django | MySQL | Bootstrap | HTML/CSS]
 Developed a Hearing Loss Detection System using Gradient
 Boosting Algorithm to analyze input factors such as age, dB
