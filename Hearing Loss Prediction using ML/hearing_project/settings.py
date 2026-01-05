@@ -168,5 +168,4 @@ MESSAGE_TAGS = {
     messages.SUCCESS : 'alert-success',
     messages.ERROR : 'alert-danger',
 }
-Fix ALLOWED_HOSTS
-Use SQLite for Render
+
