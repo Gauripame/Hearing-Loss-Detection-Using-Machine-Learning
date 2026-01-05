@@ -27,7 +27,16 @@ SECRET_KEY = 'django-insecure-^@b5*(7yg!z(qgyi@6uit8@#1!ili+kw3b6e&(d-lzz%zda^$^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'hearing-loss-detection-using-machine.onrender.com',
+    'localhost',
+    '127.0.0.1'
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://hearing-loss-detection-using-machine.onrender.com'
+]
 
 
 # Application definition
@@ -153,3 +162,4 @@ MESSAGE_TAGS = {
     messages.SUCCESS : 'alert-success',
     messages.ERROR : 'alert-danger',
 }
+Fix ALLOWED_HOSTS
